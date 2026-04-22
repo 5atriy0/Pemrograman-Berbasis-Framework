@@ -1,0 +1,42 @@
+.error {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #fff5f5;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding: 2rem;
+
+    &__image {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #c0392b;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #555555;
+    }
+
+    &__btn {
+        margin-top: 0.5rem;
+        padding: 0.6rem 1.5rem;
+        background-color: #c0392b;
+        color: #ffffff;
+        border-radius: 6px;
+        font-size: 1rem;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #a93226;
+        }
+    }
+}
